@@ -1,5 +1,8 @@
 package hello.core.member;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class MemberServiceImpl implements MemberService{
     //private final MemberRepository memberRepository = new MemoryMemberRepository();
     //DIP위반 MemberServiceImpl 클래스가 구현체와 인터페이스 모두 의존하고 있음
